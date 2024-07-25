@@ -6,5 +6,86 @@
     <title>Hospital</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <header
+      class="bg-transparent absolute top-0 w-full flex items-center bg-slate-500"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home"
+              ><img
+                src="../images/Desain_tanpa_judul__1_-removebg-preview.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolut right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-400"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-400"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#bussines"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-400"
+                    >Bussines</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#facility"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-400"
+                    >Facility</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-blue-400"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <script src="/dist/js/script.js"></script>
+  </body>
 </html>
