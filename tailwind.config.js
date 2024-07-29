@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern":
-          "url('../images/national-cancer-institute-1c8sj2IO2I4-unsplash.jpg')",
+        "hero-pattern": "url(/dist/images/hero.jpg)",
       },
 
       fontFamily: {
